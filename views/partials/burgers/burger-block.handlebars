@@ -1,9 +1,10 @@
 {{!-- Trash Button --}}
 
 <div class="mt-4">
-	<h4>{{burger_name}}</h4>
+	<h4 class="wishBurger"><span>{{burger_name}}</span>
 
-	<!--Devour me button-->
-	<button class="change-devour btn btn-primary" data-id="{{id}}" data-newdevour="{{devour}}"> Enjoy!
-	</button>
+		<!--Devour me button-->
+		<button class="change-devour btn btn-primary pull-right" data-id="{{id}}" data-newdevour="{{devour}}"> <span class="iconify" data-icon="fa-solid:hamburger" data-inline="true" style="color: white;"></span> Enjoy!
+		</button>
+	</h4>
 </div>

@@ -15,12 +15,32 @@ body {
 
 /* Font size of app title in jumbotron*/
 #app-title {
-    font-size: 90px;
+    font-size: 50px;
 }
 
 /*Font size of lead statement in jumbotron*/
 .lead {
-    font-size: 24px;
+    font-size: 20px;
+}
+
+/*Burger Image*/
+#burgerImg{
+    width: 150px;
+    background-color: transparent;
+    vertical-align: baseline;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+}
+
+.wishBurger, .devoured-burger-name {
+    font-size: 18px;
+}
+
+.change-devour, .delete-burger {
+    float: right;
+    font-size: 13px;
 }
 
 /* Burger background image*/
