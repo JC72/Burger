@@ -7,17 +7,21 @@ var burger = {
       cb(res);
     });
   },
+
   // The variables cols and vals are arrays.
   insertOne: function(cols, vals, cb) {
     orm.insertOne("burgers", cols, vals, function(res) {
       cb(res);
     });
   },
+
+  // Update function to change devour state from false to true
   updateOne: function(objColVals, condition, cb) {
-    orm.update("burgers", objColVals, condition, function(res) {
+    orm.updateOne("burgers", objColVals, condition, function(res) {
       cb(res);
     });
   },
+
   delete: function(condition, cb) {
     orm.delete("burgers", condition, function(res) {
       cb(res);
