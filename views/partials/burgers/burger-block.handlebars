@@ -1,10 +1,18 @@
 {{!-- Trash Button --}}
 
-<div class="mt-4">
-	<h4 class="wishBurger"><span>{{burger_name}}</span>
+<div class="mt-5">
+	<h4 class="wishBurger justify-content center"><span>{{burger_name}}</span>
 
 		<!--Devour me button-->
-		<button class="change-devour btn btn-primary pull-right" data-id="{{id}}" data-newdevour="{{devour}}"> <span class="iconify" data-icon="fa-solid:hamburger" data-inline="true" style="color: white;"></span> Enjoy!
+
+		<button class="delete-burger btn btn-danger" data-id="{{this.id}}"><i class="far fa-trash-alt"></i> Trash</button>
+
+		<button class="change-devour btn btn-primary pull-right" data-id="{{id}}" data-newdevour="{{devour}}"> 
+				{{#if devour}}<span class="iconify" data-icon="fa-solid:hamburger" data-inline="true" style="color: white;"></span> Enjoy!
+				{{else}}<span class="iconify" data-icon="fa-solid:hamburger" data-inline="true" style="color: white;"></span> Wish<br>Again!{{/if}}
 		</button>
+
+				
+		
 	</h4>
 </div>

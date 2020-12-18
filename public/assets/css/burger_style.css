@@ -34,21 +34,29 @@ body {
     padding: 2rem 1rem;
 }
 
+.mt-3, .my-3 {
+    padding: 8.5px
+}
+
 .wishBurger, .devoured-burger-name {
-    font-size: 18px;
+    font-size: 16px;
+    text-align: left;
 }
 
 .change-devour, .delete-burger {
+    font-size: 11px;
     float: right;
-    font-size: 13px;
+    padding: 5px;
+    margin: 5px;
 }
 
+
 /* Burger background image*/
-body {
-    /*background-image: url(""); /*need photo maybe*/
+/* body {
+    background-image: url(""); need photo maybe
     background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-size: cover; 
+} */
 
 
 /*Border styling for devoured burgers card and footer */
