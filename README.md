@@ -26,7 +26,7 @@ This project has been loaded to my Personal GitHub Page and deployed to my Herok
 
 ## Demo:
 
-![](https://github.com/JC72/JeffClegg_11_NoteTaker/blob/main/public/assets/video/demovideo.gif)
+![](https://github.com/JC72/Burger/blob/main/public/videos/demovideo.gif)
 
 ## Assignment
 ### This assignment contains the following features:
@@ -42,30 +42,13 @@ This project has been loaded to my Personal GitHub Page and deployed to my Herok
 
     * The "Trash" button removes the Burger name from the site and the database.
 
-    ![Home Page](https://github.com/JC72/JeffClegg_11_NoteTaker/blob/main/public/assets/screenshots/homepage.png)
+    ![Home Page](https://github.com/JC72/Burger/blob/main/public/screenshots/mainpage.png)
+
+    ![Entered Page](https://github.com/JC72/Burger/blob/main/public/screenshots/enterpage.png)
+
+    ![Ate Page](https://github.com/JC72/Burger/blob/main/public/screenshots/atepage.png)
 
 
-* Notes Page
-
-    * Contains a NavBar the holds the following:
-
-        1. Note Taker text
-
-            * when clicked takes you back to the home page.
-
-        2. Save Icon
-
-            * which shows up when only a Title for the note and the note is added to the designated placeholders.
-
-        3. Pencil Icon 
-
-            * which allows you to create a new note
-
-    * Container the when the note is saved stores it with the title and a trash can icon.
-
-    * Container that allow the user to type the Title and the Note itself.
-
-    ![Note Page](https://github.com/JC72/JeffClegg_11_NoteTaker/blob/main/public/assets/screenshots/notespage.png)
 
 ## File Structure <a name="filestructure"></a>
 
@@ -93,8 +76,9 @@ The following folders and what they contain are listed below:
     |   |   |-- js
     |   |   |   |-- burger.js
     |   |   |-- screenshots
-    |   |   |   |-- frontpage.png
-    |   |   |   |-- usedpage.png
+    |   |   |   |-- mainpage.png
+    |   |   |   |-- enterpage.png
+    |   |   |   |-- atepage.png
     |   |   |-- Videos
     |   |   |   | - demovideo.gif
     |-- views
